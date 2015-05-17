@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title: Site Title
+title: ETC. DEV
 locale: en_US
-description: Describe your website here.
+description: ETC. The Greatest Rock Band On Earth
 logo: site-logo.png
 search: true
 url: http://localhost:4000
@@ -31,10 +31,10 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
+  name: ETC.IE
   avatar: bio-photo.jpg
-  email: you@email.com
-  disqus-shortname:
+  email: info@etc.ie
+  disqus-shortname: etc-ie
   twitter: #username
   facebook: #username
   github: #username

@@ -6,7 +6,7 @@ modified: 2013-05-31
 categories: articles
 tags: [sample-post]
 image:
-  feature: so-simple-sample-image-1.jpg
+  feature: 
   credit: WeGraphics
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 comments: true

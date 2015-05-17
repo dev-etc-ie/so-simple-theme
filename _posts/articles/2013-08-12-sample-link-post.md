@@ -3,6 +3,8 @@ layout: post
 title: "Sample Link Post"
 excerpt: "Example and code for using link posts."
 categories: articles
+author: billy_rick
+comments: true
 tags: [sample-post, link-post]
 link: http://mademistakes.com  
 ---
