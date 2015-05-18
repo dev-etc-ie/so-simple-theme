@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Latest Posts
+
 excerpt: "A simple and clean responsive Jekyll theme for words and photos."
 search_omit: true
 ---
@@ -10,3 +11,18 @@ search_omit: true
   <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt }}</span>{% endif %}</a></article></li>
 {% endfor %}
 </ul>
+
+
+<div class="container-fluid">
+<div class="row">
+    <div class="col-sm-3">
+  {% for album in site.live-at-the-inter limit:10 %}
+      <img src="{{ album.thumbnail-path }}" alt="{{ album.title }}"/>
+      <a href="{{ album.url }}">{{ album.title }}</a>
+      <p>{{ album.short-description }}</p>
+      <time datetime="{{ album.date | date_to_xmlschema }}">{{ album.date | date: "%B %d, %Y" }}</time>
+
+    </div>
+  {% endfor %}
+</div>
+</div>

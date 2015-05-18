@@ -6,7 +6,7 @@ modified: 2013-05-31
 categories: articles
 tags: [sample-post]
 image:
-  feature: 
+  feature: etc-band-crop.jpg
   credit: WeGraphics
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 comments: true
